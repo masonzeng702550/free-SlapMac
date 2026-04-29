@@ -1,0 +1,26 @@
+# 建置產物
+.build/
+.swiftpm/
+build/
+SlapMac
+SlapMac.app/
+release/
+*.xcodeproj/
+
+# Claude Code 本機設定（含本機路徑）
+.claude/
+
+# macOS
+.DS_Store
+
+# 個人素材與示範音檔（授權／隱私）
+*.mp3
+*.wav
+*.m4a
+*.aiff
+*.mkv
+*.mp4
+*.webm
+
+# Icon 生成中繼產物（保留 .icns 即可，不用把 iconset/icons PNG 塞進 repo 也可以，但保留方便協作）
+# Resources/AppIcon.iconset/
